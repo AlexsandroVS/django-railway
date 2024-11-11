@@ -5,7 +5,7 @@ from django.urls import path, include
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView, TokenVerifyView  # Importa TokenVerifyView
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
-from api.views import landing_page
+
 
 # Configuración de Swagger para la documentación de la API
 schema_view = get_schema_view(
