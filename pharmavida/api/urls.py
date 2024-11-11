@@ -4,7 +4,7 @@ from .views import (
     PersonaViewSet, EmpleadoViewSet, ClienteViewSet, ProveedorViewSet, 
     CategoriaViewSet, ProductoViewSet, RegisterView,
     FacturaViewSet, VentaViewSet, PedidoViewSet, DetallePedidoViewSet, CurrentUserView, 
-    landing_page, RegisterClienteView  # Agregamos el RegisterClienteView
+    RegisterClienteView  # Agregamos el RegisterClienteView
 )
 
 router = DefaultRouter()
