@@ -62,7 +62,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'pharmavida.urls'
+ROOT_URLCONF = 'pharmavida.pharmavida.urls'
 
 TEMPLATES = [
     {
