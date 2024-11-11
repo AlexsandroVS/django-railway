@@ -23,7 +23,7 @@ schema_view = get_schema_view(
 urlpatterns = [
 
     path('admin/', admin.site.urls),  # Rutas de administración
-    path('api/', include('pharmavida.api.urls')),  # Incluye las URLs de la API
+    path('api/', include('api.urls')),  # Incluye las URLs de la API
     path('api-auth/', include('rest_framework.urls')),  # Rutas de autenticación de DRF
     path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),  # Obtener token JWT
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),  # Refrescar token JWT

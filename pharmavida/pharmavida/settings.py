@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'pharmavida.api',
+    'api.apps.ApiConfig',
     'django_extensions',
     'rest_framework.authtoken',
     'rest_framework',
@@ -62,7 +62,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'pharmavida.pharmavida.urls'
+ROOT_URLCONF = 'pharmavida.urls'
 
 
 TEMPLATES = [
