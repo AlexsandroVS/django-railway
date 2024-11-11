@@ -93,5 +93,3 @@ class DetallePedidoViewSet(viewsets.ModelViewSet):
     queryset = DetallePedido.objects.all()
     serializer_class = DetallePedidoSerializer
 
-def landing_page(request):
-    return render(request, 'landing.html')

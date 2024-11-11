@@ -20,7 +20,6 @@ router.register(r'pedidos', PedidoViewSet)
 router.register(r'detalles-pedido', DetallePedidoViewSet)
 
 urlpatterns = [
-    path('', landing_page, name='landing_page'),  # Ruta para la landing page en la raíz de la API
     path('v1/', include(router.urls)),  # Rutas de la API con prefijo v1
     path('v1/register/', RegisterView.as_view(), name='register'),  # Ruta para registrar usuario
     path('v1/current-user/', CurrentUserView.as_view(), name='current_user'),  # Ruta para usuario actual
