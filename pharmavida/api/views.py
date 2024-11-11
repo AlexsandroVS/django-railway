@@ -16,7 +16,7 @@ from .serializers import (
     CategoriaSerializer, ProductoSerializer, FacturaSerializer,
     VentaSerializer, PedidoSerializer, DetallePedidoSerializer, UserSerializer
 )
-from api import serializers
+
 
 class RegisterClienteView(APIView):
     def post(self, request, *args, **kwargs):
