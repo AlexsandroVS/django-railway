@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'pharmavida.api.apps.ApiConfig.name',
+    'pharmavida.api',
     'django_extensions',
     'rest_framework.authtoken',
     'rest_framework',
