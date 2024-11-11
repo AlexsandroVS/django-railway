@@ -21,7 +21,7 @@ schema_view = get_schema_view(
 )
 
 urlpatterns = [
-    path('', landing_page, name='landing_page'),  # Página de inicio de la API
+
     path('admin/', admin.site.urls),  # Rutas de administración
     path('api/', include('api.urls')),  # Incluye las URLs de la API
     path('api-auth/', include('rest_framework.urls')),  # Rutas de autenticación de DRF
